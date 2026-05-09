@@ -69,4 +69,10 @@ vim.o.scrolloff = 10
 -- See `:help 'confirm'`
 vim.o.confirm = true
 
+-- visual witdth of tab character
+vim.opt.tabstop = 2
+
+-- identation width using >> and <<
+vim.opt.shiftwidth = 2
+
 -- vim: ts=2 sts=2 sw=2 et
